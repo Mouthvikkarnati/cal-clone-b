@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/server.js",
+    "start": "node src/server.js",
     "prisma:generate": "prisma generate",
     "prisma:push": "prisma db push"
   },
@@ -20,3 +20,4 @@
     "prisma": "^5.22.0"
   }
 }
+
